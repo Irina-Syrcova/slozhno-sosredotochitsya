@@ -3,6 +3,16 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme_dark {
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --bg-image: url(../images/cover-image-dark.png);
+  --accent-title: #DB00FF;
+  --dec-text: #000028;
+  --bg-color: #000028;
+  --accent-section: #FF0070;
+  --dec-bg: #FF0070;
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
