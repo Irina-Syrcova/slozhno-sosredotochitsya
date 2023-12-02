@@ -174,13 +174,16 @@
 }
 
 .section__text {
-  margin-block-end: 20px;
   color: var(--text-color);
   font-size: 18px;
   line-height: 1.3;
 }
 
-section .section__card:last-child .section__text:last-child {
+.section__card {
+  margin-block-end: 20px;
+}
+
+section .section__card:last-child {
   margin-block-end: 0;
 }
 
@@ -267,12 +270,12 @@ section .section__card:last-child .section__text:last-child {
   }
 }
 
-.section__what-content {
+/* .section__what-content {
   @media (min-width: 1024px) {
     display: flex;
     flex-direction: column;
   }
-}
+} */
 
 .section__what-title {
   margin-block-end: 10px;
