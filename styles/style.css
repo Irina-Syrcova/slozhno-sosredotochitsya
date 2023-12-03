@@ -291,8 +291,10 @@ section .section__card:last-child {
   }
 
   .section__card {
-    width: 314px;
-    margin-block-end: 0;
+    @media (min-width: 1024px) {
+      width: 314px;
+      margin-block-end: 0;
+    }
   }
 }
 
