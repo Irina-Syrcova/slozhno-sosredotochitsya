@@ -280,6 +280,10 @@ section .section__card:last-child {
   @media (min-width: 768px) {
     max-width: 236px;
   }
+
+  @media (min-width: 1024px) {
+    max-width: 315px;
+  }
 }
 
 .section__what-description {
