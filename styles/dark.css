@@ -12,17 +12,23 @@
   --bg-color: #000028;
   --accent-section: #FF0070;
   --dec-bg: #FF0070;
+  --hover: rgba(255, 0, 111, 0.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  .page.theme_light {
+.page.theme_dark .header__dec {
+  display: block;
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_dark {
     --accent-color: #FF0070;
-    --text-color: #353430;
-    --bg-image: url(../images/cover-image-light.png);
-    --accent-title: #FF8DCB;
-    --dec-text: #353430;
-    --bg-color: #FFF1F7;    
-    --accent-section: #353430;
-    --dec-bg: #FF8DCB;
+    --text-color: #F1B2CE;
+    --bg-image: url(../images/cover-image-dark.png);
+    --accent-title: #DB00FF;
+    --dec-text: #000028;
+    --bg-color: #000028;
+    --accent-section: #FF0070;
+    --dec-bg: #FF0070;
+    --hover: rgba(255, 0, 111, 0.4);
   }
 }
