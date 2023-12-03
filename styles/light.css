@@ -8,7 +8,7 @@
   --accent-color: #FF0070;
   --text-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
-  --accent-title: #FF8DCB;
+  --accent-title: #FFC2E6;
   --dec-text: #353430;
   --bg-color: #FFF1F7;    
   --accent-section: #353430;
@@ -23,7 +23,7 @@
       --accent-color: #FF0070;
       --text-color: #353430;
       --bg-image: url(../images/cover-image-light.png);
-      --accent-title: #FF8DCB;
+      --accent-title: #FFC2E6;
       --dec-text: #353430;
       --bg-color: #FFF1F7;
       --accent-section: #353430;
@@ -45,11 +45,13 @@
     --accent-color: #FF0070;
     --text-color: #353430;
     --bg-image: url(../images/cover-image-light.png);
-    --accent-title: #FF8DCB;
+    --accent-title: #FFC2E6;
     --dec-text: #353430;
     --bg-color: #FFF1F7;    
     --accent-section: #353430;
     --dec-bg: #FF8DCB;
     --hover: rgba(54, 53, 48, 0.4);
   }
+
+  
 }
